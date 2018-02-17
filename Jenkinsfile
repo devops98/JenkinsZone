@@ -1,6 +1,6 @@
 pipeline{
     agent {
-        label 'rhel'
+        label 'awspack2'
     }
 
     stages{
