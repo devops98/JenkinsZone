@@ -14,7 +14,7 @@ pipeline{
 
         stage('Build'){
             steps {
-                sh 'mvn clean install'
+                sh 'mkdir mydirtes2; mvn clean install'
             }
         }
 
